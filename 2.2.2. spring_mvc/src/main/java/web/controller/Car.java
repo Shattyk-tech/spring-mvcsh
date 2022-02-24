@@ -3,12 +3,16 @@ package web.controller;
 public class Car {
     private int id;
     private String name;
-    private int price;
+    private String model;
 
-    public Car(int id, String name, int price) {
+    public Car() {
+
+    }
+
+    public Car(int id, String name, String model) {
         this.id = id;
         this.name = name;
-        this.price = price;
+        this.model = model;
     }
 
     public int getId() {
@@ -27,20 +31,11 @@ public class Car {
         this.name = name;
     }
 
-    public int getPrice() {
-        return price;
+    public String getModel() {
+        return model;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+    public void setModel(String model) {
+        this.model = model;
     }
 }

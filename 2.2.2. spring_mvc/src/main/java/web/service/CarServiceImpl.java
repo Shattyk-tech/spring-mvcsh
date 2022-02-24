@@ -15,11 +15,11 @@ public class CarServiceImpl implements CarService {
 
     {
         carList=new ArrayList<>();
-        carList.add(new Car(1, "Toyota", 23456));
-        carList.add(new Car(2, "Mers", 123456));
-        carList.add(new Car(3, "Honda", 87543));
-        carList.add(new Car(4, "Audi", 123456));
-        carList.add(new Car(5, "", 12345));
+        carList.add(new Car(1, "Camry", "Toyota"));
+        carList.add(new Car(2, "Mers", "E-class"));
+        carList.add(new Car(3, "Honda", "Accord"));
+        carList.add(new Car(4, "KIA", "Hyundai"));
+        carList.add(new Car(5, "Sanata", "Hyundai"));
     }
 
     @Override
